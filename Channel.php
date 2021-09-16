@@ -1,6 +1,7 @@
 <?php
 
     abstract class Channel {
+        
         const ATM = "ATM";
         const POS = "POS";
         const Web = "Web";

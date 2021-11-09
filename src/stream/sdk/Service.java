@@ -84,7 +84,7 @@ public class Service implements Serializable {
         this.isNew = value;
     }
 
-    @XmlElement(name = "fieldList")
+    @XmlElement(name = "field")
     public List<Field> getFieldList() {
         return fieldList;
     }

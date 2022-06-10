@@ -191,7 +191,7 @@ namespace STREAM
             signature.AddParameter(id);
             if(dictionary != null)
             {
-                foreach(KeyValuePair<string, object> kvp in dictionary.OrderBy(e => e.Key))
+                foreach(KeyValuePair<string, object> kvp in dictionary.OrderBy(e => e.Key, StringComparer.Ordinal))
                 {
                     if(kvp.Value != null)
                     {
